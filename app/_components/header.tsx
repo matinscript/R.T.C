@@ -38,7 +38,7 @@ export default function Header() {
       {/* Text */}
       <div className="mt-[7rem] border-white/80 border-2 px-8 py-24 lg:px-28 lg:py-5 w-[300px] lg:w-[70%] text-center text-xl font-light">
         <div className="text-white/80">
-          To use this indicator, you don't need to be a strong technicalist. You
+          To use this indicator, you don&apos;t need to be a strong technicalist. You
           just have to activate the indicator on your chart so that the entry
           and exit
         </div>
@@ -54,15 +54,15 @@ export default function Header() {
           src="/about-image.png"
         />
         <div className="lg:ms-0 ms-3">
-          <div className="left-[511px] top-[23px] text-white text-[21px] font-bold font-['Inter'] uppercase">
+          <div className="left-[511px] top-[23px] text-white text-[21px] font-bold font-serif uppercase">
             Our indicator has unique conditions in the{" "}
             <br className="hidden lg:block" />
             script that create the following:
           </div>
-          <div className="left-[515px] top-[113px] text-[#c3c3c3] text-lg font-normal font-['Inter'] uppercase">
+          <div className="left-[515px] top-[113px] text-[#c3c3c3] text-lg font-normal font-serif uppercase">
             <br />
           </div>
-          <div className="left-[517px] top-[104px] text-[#e6e6e6] text-lg font-normal font-['Inter'] uppercase">
+          <div className="left-[517px] top-[104px] text-[#e6e6e6] text-lg font-normal font-serif uppercase">
             {" "}
             1. Buy and Sell signals,candle by candle.
             <br /> 2. Fast scalp in short timeframe.
@@ -77,8 +77,8 @@ export default function Header() {
         </div>
       </div>
       {/* copy write */}
-      <div className="text-center text-white/60 text-sm font-light font-['Montserrat'] uppercase lg:mt-12 mt-[18rem] mb-10">
-        © 2022 Copyright by b.t.c group{" "}
+      <div className="text-center text-white/60 text-sm font-light font-serif uppercase lg:mt-12 mt-[18rem] mb-10">
+        © 2024 Copyright by b.t.c group{" "}
       </div>
     </div>
   );
